@@ -1,0 +1,30 @@
+li.navigation2 {
+  float: right;
+  color: blue;
+}
+table, th, td, {
+  padding-right: 100px;
+}
+table {
+  border-spacing: 30px;
+  text-align: right;
+  padding-right:150px;
+  padding-bottom: 50px;
+}
+
+th {
+  font-size:30px;
+  color:#6699CC;
+  font-family: stratos-lights, sans-serif;
+  padding-bottom: 40px;}
+td {
+  font-family: skia, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+p.solid {
+  border-style: solid;
+  border: 3px;
+  border-color: #ff6633;
+  padding: 1em;
+}
