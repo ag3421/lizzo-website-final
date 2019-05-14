@@ -1,0 +1,209 @@
+body {
+  background: black !important;
+  color: white;
+}
+h1 {
+  padding-bottom:20px;
+}
+text-center {
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+h4 {
+    font-family: 'K2D';
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: .5px;
+    padding-bottom:15px;
+}
+.fit {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: center;
+  width: 33.33%; /* three containers (use 25% for four, and 50% for two, etc) */
+  padding: 15px; /* if you want space between the images */
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 200px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.cities {
+  background-color: black;
+  color: #6699CC;
+  margin: 20px;
+  padding: 20px;
+}
+
+*{
+  padding:0;
+  margin:0;
+}
+
+.first-class {
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  font-family: stratos-lights, sans-serif;
+  font-weight: 550;
+  font-size: 19px;
+  color: white;
+  text-align: right;
+
+  background: black;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 34px;
+  font-family: stratos-lights, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: black;
+  color: #ff6633;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: black;
+  color: #ff6633;
+}
+li.navigation {
+  display: inline;
+}
+li.navigation {
+  float: right;
+}
+
+body {
+  font-family: stratos-lights, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34 px;
+}
+div {
+  font-size: 14px;
+}
+span {
+  font-size: 8px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+  .homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+  }
+
+  .no-video .video-container video,
+  .touch .video-container video {
+    display: none;
+  }
+
+  .no-video .video-container .poster,
+  .touch .video-container .poster {
+    display: block !important;
+  }
+
+  .video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+  }
+
+  .video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+  }
+
+  .video-container video.fillWidth {
+    width: 100%;
+  }
+
+  .text {
+    font-family: stratos;
+    weight: normal;
+    font-size: 100px;
+    text-align: center;
+    float: left;
+    color: #6699CC;
+    margin: 20px;
+    padding: 20px;
+  }
+  .container{
+  position: relative;
+  margin: auto;
+  padding: 0 20px;
+}
+section {
+  width: 100%;
+  height: auto;
+  margin: 25px auto;
+}
