@@ -75,7 +75,7 @@ h4 {
   padding-bottom: 10px;
   padding-left: 10px;
 
-  font-family: stratos-lights, sans-serif;
+  font-family: asap, sans-serif;
   font-weight: 550;
   font-size: 19px;
   color: white;
@@ -100,7 +100,7 @@ h4 {
   padding: 30px 16px;
   text-decoration: none;
   font-size: 30px;
-  font-family: stratos, sans-serif;
+  font-family: asap, sans-serif;
   font-weight: 500;
 }
 
@@ -123,7 +123,7 @@ li.navigation {
 }
 
 body {
-  font-family: stratos, sans-serif;
+  font-family: asap, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 34 px;
