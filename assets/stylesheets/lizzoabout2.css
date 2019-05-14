@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+/* Create three equal columns that floats next to each other */
+.columnfun {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.rowfun:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul.demo {
+  list-style-type: circle;
+  margin: 1;
+  padding: 1;
+}
