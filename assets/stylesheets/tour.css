@@ -28,3 +28,9 @@ p.solid {
   border-color: #ff6633;
   padding: 1em;
 }
+.boxed {
+  border: 1px solid green ;
+}
+li {
+  float: right;
+}
