@@ -6,8 +6,8 @@ table, th, td, {
   padding-right: 100px;
 }
 table {
-  border-spacing: 10px;
-  text-align: right;
+  border-spacing: 0em 2em;
+  text-align: center;
   padding-right:120px;
   padding-bottom: 30px;
   padding-left: 100px;
