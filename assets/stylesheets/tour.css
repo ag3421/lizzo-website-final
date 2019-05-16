@@ -9,18 +9,24 @@ table {
   border-spacing: 30px;
   text-align: right;
   padding-right:150px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-top: 0px;
 }
 
 th {
   font-size:30px;
   color:#6699CC;
   font-family: stratos-lights, sans-serif;
-  padding-bottom: 40px;}
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-right: 0px;
+}
 td {
   font-family: skia, sans-serif;
   font-size: 20px;
   font-weight: 100;
+  padding-right: 0px;
 }
 p.solid {
   border-style: solid;
@@ -37,6 +43,13 @@ li {
 div.pretty {
   border: 1px solid orange;
   background-color: transaparent;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+tr.orange {
+  outline: 3px #ff6633 solid;
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
