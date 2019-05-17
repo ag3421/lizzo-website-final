@@ -17,7 +17,7 @@ img {
   width: 250px;
   line-height: 200px;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   display: none; /* Hidden by default */
   font-family: asap, sans-serif;
   font-style: normal;
@@ -55,4 +55,13 @@ img {
 .btn.active {
   background-color: black;
   color: #ff6633;
+}
+div.item {
+    vertical-align: super;
+    display: grid;
+    text-align: center;
+    width: 160px;
+}
+.caption {
+    display: block;
 }
