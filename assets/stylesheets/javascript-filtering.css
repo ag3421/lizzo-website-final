@@ -64,4 +64,7 @@ div.item {
 }
 .caption {
     display: block;
+    font-family: K2D;
+    font-size: 12px;
+    font-weight: 100;
 }
