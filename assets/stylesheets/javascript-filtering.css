@@ -15,7 +15,7 @@ img {
   background-color: black;
   color: #f2f2f2;
   width: 250px;
-  line-height: 200px;
+  line-height: 50px;
   text-align: center;
   margin: 5px;
   display: none; /* Hidden by default */
