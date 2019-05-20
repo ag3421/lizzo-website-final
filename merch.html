@@ -10,29 +10,30 @@
   <link rel="stylesheet" href="./assets/stylesheets/tour.css" />
   <link rel="stylesheet" href="./assets/stylesheets/merch.css" />
   <link rel="stylesheet" href="./assets/stylesheets/javascript-filtering.css" />
-
 </head>
 
 <body>
   <div class="topnav" style="padding-right:20px;padding-left:20px;">
-    <li class="navigation"><a href="about.html">ABOUT</a>
+    <a href="lizzomusic.html"><img src="./assets/images/lizzologo-01.png" alt="Lizzologo" style="width:75px;height:75px;float:left;border:0;"></a>
+<ul class="navigation">
+    <a href="about.html">ABOUT</a>
     <a href="discography.html">DISCOGRAPHY</a>
     <a href="tour.html">TOUR</a>
     <a class="active" href="merch.html">MERCH</a>
-    <a href="media.html">MEDIA</a></li>
-    <a href="lizzomusic.html"><img src="./assets/images/lizzologo-01.png" alt="Lizzologo" style="width:75px;height:75px;float:left;border:0;"></a>
+    <a href="media.html">MEDIA</a>
+    <ul>
   </div>
 
     <div id="myBtnContainer">
   <table style="width:100%">
   <tr class="orange">
-  <th><i><button class="btn active" onclick="filterSelection('all')">ALL ITEMS</button></i></th></div>
+  <th><i><button class="btn active" onclick="filterSelection('all')">ALL ITEMS</button></i></th>
     <th><i><button class="btn" onclick="filterSelection('tops')"> TOPS</button></i></th>
     <th><i><button class="btn" onclick="filterSelection('caps')"> CAPS</button></i></th>
     <th><i><button class="btn" onclick="filterSelection('etc')"> ETC</button></i></th>
   </tr>
-</div>
 </table>
+</div>
 
 
   <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
