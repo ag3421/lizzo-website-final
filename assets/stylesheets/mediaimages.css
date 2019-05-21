@@ -17,6 +17,7 @@ body {
   float: left;
   width: 19%;
   padding: 10px;
+  padding-left: 40px;
 }
 
 .columnmedia img {
@@ -33,7 +34,7 @@ body {
   float: left;
   width: 33.3%;
   height: 20%;
-  padding: 0px;
+  padding: 10px;
 }
 
 /* Clearfix (clear floats) */
