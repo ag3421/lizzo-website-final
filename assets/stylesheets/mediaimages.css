@@ -15,9 +15,10 @@ body {
 /* Create two equal columns that floats next to each other */
 .columnmedia {
   float: left;
-  width: 19%;
+  width: 17%;
   padding: 10px;
-  padding-left: 40px;
+  padding-left: 100px;
+  padding-right: 20px;
 }
 
 .columnmedia img {
