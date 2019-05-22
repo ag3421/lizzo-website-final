@@ -49,12 +49,13 @@ img {
 /* Add a light grey background on mouse-over */
 .btn:hover {
   background-color: black;
+  color: orange;
 }
 
 /* Add a dark background to the active button */
 .btn.active {
   background-color: black;
-  color: #ff6633;
+  color: orange;
 }
 div.item {
     vertical-align: super;
