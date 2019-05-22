@@ -71,9 +71,9 @@ h4 {
 
 .first-class {
   padding-top: 100px;
-  padding-right: 30px;
+  padding-right: 0px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 0px;
 
   font-family: asap, sans-serif;
   font-weight: 550;
@@ -189,14 +189,15 @@ span {
   }
 
   .text {
-    font-family: stratos;
+    font-family: asap;
     weight: normal;
     font-size: 100px;
     text-align: center;
     float: left;
     color: #6699CC;
-    margin: 20px;
-    padding: 20px;
+    margin: 0px;
+    padding-right:5px;
+    padding-top: 10px;
   }
   .container{
   position: relative;
