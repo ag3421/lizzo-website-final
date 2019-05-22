@@ -222,3 +222,10 @@ section {
   background: rgba(0,0,0,0.5);
   text-align: center;
 }
+tr.orange {
+  outline: 3px #ff6633 solid;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
