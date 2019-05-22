@@ -20,14 +20,14 @@ ul.demo {
   padding: 1;
 }
 h2 {
-  font-family: stratos, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: asap;
+  font-style:normal;
+  font-weight: 500;
   font-size: 34 px;
   color: #6699CC;
 }
 li.list {
-  font-family: statos, sans-serif;
+  font-family: asap;
   font-weight: 100;
   font-style: italic;
 }
