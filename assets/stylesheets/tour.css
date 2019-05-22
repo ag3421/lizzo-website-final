@@ -49,3 +49,10 @@ div.pretty {
   padding-bottom: 50px;
   padding-left: 80px;
 }
+tr.orange {
+  outline: 3px #ff6633 solid;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
